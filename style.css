@@ -23,10 +23,12 @@ body::before, body::after{
 }
 body::before{
   background: url(images/bg-pattern-top.svg) no-repeat;
+  background-size: contain;
   top: -40%;
 }
 body::after{
   background: url(images/bg-pattern-bottom.svg) no-repeat;
+  background-size: contain;
   bottom: -50%;
   right: -50%;
 }
